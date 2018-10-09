@@ -1,0 +1,7 @@
+base wikistyle2html
+author Main development by Hir/wataame, adjustment and distribution by HokkaidoPerson
+email dosankomali@yahoo.co.jp
+date 2018-10-09
+name Wiki-Style Script
+desc If there are wiki syntax of bold, italic, underlined, or monospaced text remaining (such as those in headers), this plugin will apply them.  You can also change color of characters in headers.
+url http://www.dokuwiki.org/plugin:wikistyle2html

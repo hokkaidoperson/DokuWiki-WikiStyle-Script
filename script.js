@@ -20,7 +20,7 @@
 //     "\// " will be "//"
 //     "://" won't be converted.
 //	
-//	**太字**、//斜体//、__下線付き__、''等幅''がご利用頂けます / **Bold**, //italic//, __underlined__, ''monopolized'' characters available.
+//	**太字**、//斜体//、__下線付き__、''等幅''がご利用頂けます / **Bold**, //italic//, __underlined__, ''monospaced'' characters available.
 //	
 //	
 //	$[hdcolor $\HTMLの色コード$\$]～$[/hdcolor$]は<font color="HTMLの色コード">～</font>と同じ働きをします。
@@ -56,13 +56,13 @@ var StyleArray = new Array(
 	'//',		//	斜体 / Italic
 	'**',		//	太字 / Bold
 	'__',		//	下線 / Underlined
-	'\'\''		//	等幅 / Monopolized
+	'\'\''		//	等幅 / Monospaced
 );
 var ConvertArray = new Array(
 	'em',	//	斜体 / Italic
 	'strong',	//	太字 / Bold
 	'u',		//	下線 / Underlined
-	'code'	//	等幅 / Monopolized
+	'code'	//	等幅 / Monospaced
 );
 
 function wikiStyle(){

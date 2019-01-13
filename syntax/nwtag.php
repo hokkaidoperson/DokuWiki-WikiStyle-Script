@@ -7,7 +7,7 @@
  * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
  * @author     HokkaidoPerson <dosankomali@yahoo.co.jp>
  */
- 
+
  // must be run within Dokuwiki
 if(!defined('DOKU_INC')) die();
 
@@ -27,7 +27,7 @@ class syntax_plugin_wikistyle2html_nwtag extends DokuWiki_Syntax_Plugin {
     function connectTo($mode) {
         $this->Lexer->addEntryPattern('<nowiki>(?=.*</nowiki>)',$mode,'plugin_wikistyle2html_nwtag');
     }
- 
+
     function postConnect() {
         $this->Lexer->addExitPattern('</nowiki>','plugin_wikistyle2html_nwtag');
     }
